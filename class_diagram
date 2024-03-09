@@ -5,7 +5,7 @@ Trích danh từ:
 - Phim : đối tượng cần quản lý -> Làm lớp thực thể -> Lớp Movie
 - Người dùng : đối tượng cần quản lý -> Làm lớp thực thể User
 - Khách hàng, quản lý : đối tượng cần quản lý -> Làm lớp thực thể Customer, Admin -> Kế thừa từ lớp User
-- Thông tin khách hàng : username, password, email -> Làm thuộc tính của lớp User
+- Thông tin khách hàng : username, password, email, address -> Làm thuộc tính của lớp User
 - Thông tin phim : title, genres, language, overview, actors, release_date, production_companies, duration, age_limit, poster, rate -> Làm thuộc tính của lớp Movie
 - Thống kê : đối tượng cần quản lý -> Làm lớp thực thể -> Lớp Statistics
 - Thông tin đánh giá : stars, timestamp -> làm thuộc tính
