@@ -1,0 +1,25 @@
+Biểu đồ chức năng: khách hàng đánh giá phim
+- Bước đầu, giao diện đăng nhập -> đề xuất lớp LogInView. Trong lớp LogInView cần có các thành phần sau:
++ username : input
++ password : input
++ login : submit
+- Tiếp theo, giao diện trang chủ khách hàng -> đề xuất lớp CustomerPageView.Trong lớp CustomerPageView cần có thành phần sau:
++ searchBar : submit
++ search : submit
+- Tiếp theo, giao diện thông tin phim -> đề xuất lớp MovieView. Trong lớp MovieView có các thành phần sau:
++ genres : output
++ language : output
++ title : output
++ overview : output
++ actors : output
++ releaseDate : output
++ prodCompanies : output
++ duration : output 
++ ageLimit : output
++ poster : output
++ rate : output
++ update : submit
+- Để người dùng đánh giá được phim, hệ thống cần xử lý như sau :
++ Input: Movie
++ Output : void
++ Đề xuât hàm updateMovieInfo(), gán cho lớp Movie

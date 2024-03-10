@@ -1,0 +1,27 @@
+Biểu đồ chức năng quản lý sửa thông tin phim:
+- Bước đầu, giao diện đăng nhập -> đề xuất lớp LogInView. Trong lớp LogInView cần có các thành phần sau:
++ username : input
++ password : input
++ login : submit
+- Tiếp theo, giao diện trang chủ dành cho quản lý -> đề xuất lớp AdminPageView. Trong lớp AdminPageView cần có các thành phần sau:
++ movieManagement : submit
+- Tiếp theo, giao diện quản lý phim -> đề xuất lớp MovieManagementView. Trong lớp MovieManagementView có các thành phần sau:
++ searchBar : input
++ search : submit
+- Tiếp theo, giao diện thông tin phim -> đề xuất lớp MovieInfoView. Trong lớp MovieInfoView có các thành phần:
++ actors : input, output
++ ageLimit : input, output
++ duration : input, output
++ genres : input, output
++ language : inptu, output
++ overview : input, output
++ poster : input, output
++ prodCompanies : input, output
++ rate : output
++ releaseDate : input, output
++ title : input, output
++ udpate : submit
+- Để cập nhật lại thông tin của bộ phim, hệ thống cần xử lý như sau : 
++ Input : Movie
++ Ouput : void
++ Đề xuất hàm udpateInfo(), gán cho lớp Movie

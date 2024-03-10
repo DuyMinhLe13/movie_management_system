@@ -1,0 +1,22 @@
+Biểu đồ chức năng: khách hàng cập nhật thông tin
+- Bước đầu, giao diện đăng nhập -> đề xuất lớp LogInView. Trong lớp LogInView cần có các thành phần sau:
++ username : input
++ password : input
++ login : submit
+- Để có thể kiểm tra thông tin đăng nhập của khách hàng, cần xử lí dưới hệ thống : 
++ Input: username, password
++ Output: true hoặc false
++ Đề xuất hàm checkLogIn(), gán cho lớp User
+- Tiếp theo, giao diện trang chủ khách hàng -> đề xuất lớp CustomerPageView. Trong lớp CustomerPageView cần có thành phần sau:
++ customerInfo : submit
+- Tiếp theo, giao diện thông tin khách hàng -> đề xuất lớp CustomerInfoView. Trong ớp CustomerInfoView cần có các thành phần:
++ username : input, output
++ email : input, output
++ address : input, output
++ age : input, output
++ gender : input, output
++ update : submit
+- Để cập nhật thông tin của khách hàng, cần xử lí dưới hệ thống: 
++ Input: Customer
++ Output: void
++ Đề xuât hàm updateInfo(), gán cho lớp Customer

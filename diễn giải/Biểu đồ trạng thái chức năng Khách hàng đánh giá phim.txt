@@ -1,0 +1,6 @@
+Biểu đồ trạng thái chức năng: Khách hàng đánh giá phim
+- Khách hàng đăng nhập vào hệ thống, hệ thống hiển thị giao diện trang chủ khách hàng
+- Trong giao diện trang chủ khách hàng, khách hàng có thể chọn một bộ phim xuất hiện trên trang chủ. 
+- Hoặc khách hàng có thể nhập tên phim vào thanh tìm kiếm và nhấn Tìm kiếm. Hệ thống hiện kết quả tìm kiếm. Khách hàng chọn bộ phim cần tìm
+- Hệ thống hiện giao diện thông tin phim được chọn. 
+- Khách hàng thực hiện đánh giá bộ phim

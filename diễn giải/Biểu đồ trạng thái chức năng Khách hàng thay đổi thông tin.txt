@@ -1,0 +1,8 @@
+Biểu đồ trạng thái chức năng: Khách hàng thay đổi thông tin
+- Khách hàng đăng nhập vào hệ thống. 
+- Nếu khách hàng đăng nhập sai, hệ thống hiện thông báo đăng nhập sai. Khách hàng nhấn 'OK'. Hệ thống hiện lại giao diện đăng nhập
+- Nếu khách hàng đăng nhập đúng, hệ thống hiện giao diện trang chủ khách hàng. 
+- Tại trang chủ khách hàng, khách hàng chọn phần Thông tin cá nhân. Hệ thống hiện giao diện thông tin cá nhân.
+- Khách hàng nhập thông tin mới và nhấn nút Cập nhật
+- Tại trang chủ khách hàng, khách hàng có thể chọn phần Mật khẩu. Hệ thống hiện giao diện thay đổi mật khẩu
+- Khách hàng nhập mật khẩu mới và nhấn Cập nhật

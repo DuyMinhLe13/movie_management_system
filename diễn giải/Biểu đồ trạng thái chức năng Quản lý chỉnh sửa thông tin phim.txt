@@ -1,0 +1,6 @@
+Biểu đồ trạng thái chức năng: Quản lý chỉnh sửa thông tin phim
+- Quản lý đăng nhập vào hệ thống. Hệ thống hiện giao diện trang chủ quản lý
+- Tại trang chủ quản lý, khách hàng chọn phần Quản lý phim. Hệ thống hiện giao diện quản lý phim
+- Tại giao diện quản lý phim, quản lý nhập tên bộ phim vào thanh tìm kiếm và nhấn Tìm kiếm. Hệ thống hiển thị kết quả tìm kiếm
+- Quản lý chọn bộ phim cần tìm. Hệ thống hiển thị thông tin bộ phim
+- Quản lý nhập thông tin bộ phim và nhấn Cập nhật
