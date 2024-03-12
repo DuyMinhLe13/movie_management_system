@@ -1,0 +1,16 @@
+Mô tả chức năng:
+Hệ thống hỗ trợ các chức năng: quản lý phim và quản lý người dùng. Trong chức năng quản lý phim, quản lý có thể thực hiện thêm, sửa hoặc xóa thông tin của phim. Trong chức năng quản lý người dùng, đối với quản lý có thể xóa thông tin khách hàng, còn khách hàng có thể cập nhật thông tin. 
+
+Trích danh từ:
+- Phim : đối tượng cần quản lý -> Làm lớp thực thể -> Lớp Movie
+- Người dùng : đối tượng cần quản lý -> Làm lớp thực thể User
+- Khách hàng, quản lý : đối tượng cần quản lý -> Làm lớp thực thể Customer, Admin -> Kế thừa từ lớp User
+- Thông tin khách hàng : username, password, email -> Làm thuộc tính của lớp User
+- Thông tin phim : title, genres, language, overview, actors, release_date, production_companies, duration, age_limit, poster, rate -> Làm thuộc tính của lớp Movie
+- Thống kê : đối tượng cần quản lý -> Làm lớp thực thể -> Lớp Statistics
+- Thông tin đánh giá : stars, timestamp -> làm thuộc tính
+
+Xét quan hệ giữa các lớp: 
+- Mỗi phim có thể được đánh giá bởi nhiều khách hàng và một khách hàng có thể đánh giá nhiều bộ phim -> quan hệ lớp Movie:Customer là quan hệ n:n -> Đề xuất lớp trung gian Rating
+- Mỗi khách hàng có thể đánh giá nhiều lần và mỗi lần đánh giá chỉ được thực hiện bởi một khách hàng -> quan hệ lớp Customer:Rating là quan hệ 1:n 
+
