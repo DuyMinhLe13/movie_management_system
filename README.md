@@ -8,5 +8,5 @@
 
 # Tài liệu tham khảo
 [Tài liệu tham khảo phân tích thiết kế](https://docs.google.com/document/d/131fpL8G80h6UvIMrOOEW3FHA6EYXhHd9lNma18Zgro4/edit?usp=sharing) <br>
-[Code Front-end](https://github.com/tushar-2223/BlueBird-Movies)
+[Code Front-end](https://github.com/tushar-2223/BlueBird-Movies) <br>
 [Các thao tác OLAP trong MySQL](https://youtu.be/KLPULneM4mo?si=dTFzmakGDNqMtfzc)
