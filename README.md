@@ -11,5 +11,12 @@
 [Code Front-end](https://github.com/tushar-2223/BlueBird-Movies) <br>
 [Các thao tác OLAP trong MySQL](https://youtu.be/KLPULneM4mo?si=dTFzmakGDNqMtfzc)
 
+# Radmin VPN Network
+name: HTQL
+pass: 8654321
+
+# URL Backend
+http://26.247.217.119/
+
 # Command
 uvicorn main:app --host 0.0.0.0 --port 80
