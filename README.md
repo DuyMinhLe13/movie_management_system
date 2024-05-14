@@ -19,4 +19,5 @@ pass: 8654321
 http://26.247.217.119/
 
 # Command
-uvicorn main:app --host 0.0.0.0 --port 80
+uvicorn main:app --host 0.0.0.0 --port 80 <br>
+ngrok http 80
