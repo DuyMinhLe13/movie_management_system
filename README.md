@@ -20,4 +20,6 @@ http://26.247.217.119/
 
 # Command
 uvicorn main:app --host 0.0.0.0 --port 80 <br>
+uvicorn main:app --port 80 <br>
+npm run dev <br>
 ngrok http 80
